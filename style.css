@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:active {
+    transform: translate(0%, 8px);
+}
+
+
+#drumkit {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    
+}
+
+
+#drumkit .drumkit-box-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.drumkit-box-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#drumkit .drumkit-box-left .bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#drumkit .drumkit-box-left .bar .button{
+    box-shadow: 5px 0px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+#drumkit .drumkit-box-right .bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#drumkit .drumkit-box-right .bar .button{
+    box-shadow: 5px 0px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.drumkit-box-left #w {
+    background-color: #69B5E1;
+    color: #fcadd8;
+}
+
+.drumkit-box-left #e {
+    background-color: #D4E4F5;
+    color: #be0457;
+}
+
+.drumkit-box-left #a {
+    background-color: #EAF2F8;
+    color: #fd2ea3;
+}
+
+.drumkit-box-left #s {
+    background-color: #BEDBED;
+    color: #fe6fc5;
+}
+
+.drumkit-box-left #d {
+    background-color: #69B5E1;
+    color: #fcadd8;
+}
+
+.drumkit-box-right #i {
+    background-color: #D4E4F5;
+    color: #be0457;
+}
+
+.drumkit-box-right #j {
+    background-color: #EAF2F8;
+    color: #fd2ea3;
+}
+
+.drumkit-box-right #k {
+    background-color: #BEDBED;
+    color: #fe6fc5;
+}
+
+.drumkit-box-right #l {
+    background-color: #69B5E1;
+    color: #fcadd8;
+}
